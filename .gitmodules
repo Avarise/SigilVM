@@ -1,0 +1,9 @@
+[submodule "src/imgui"]
+	path = src/imgui
+	url = https://github.com/ocornut/imgui.git
+[submodule "src/littlefs"]
+	path = src/littlefs
+	url = https://github.com/littlefs-project/littlefs.git
+[submodule "src/glfw"]
+	path = src/glfw
+	url = https://github.com/glfw/glfw.git
