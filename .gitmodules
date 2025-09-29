@@ -1,0 +1,6 @@
+[submodule "include/imgui"]
+	path = include/imgui
+	url = https://github.com/ocornut/imgui.git
+[submodule "include/xxhash"]
+	path = include/xxhash
+	url = git@github.com:Cyan4973/xxHash.git

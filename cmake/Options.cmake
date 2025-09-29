@@ -1,0 +1,15 @@
+option(BUILD_EXAMPLES "Build example applications" ON)
+option(BUILD_TESTING "Build tests" ON)
+option(ENABLE_WAYLAND "Enable Wayland platform" ON)
+option(ENABLE_CLANG_TIDY "clang-tidy linting" OFF)
+option(ENABLE_CPPCHECK "cppcheck static analysis" OFF)
+option(ENABLE_VALGRIND "Wrap tests with valgrind" OFF)
+option(BUILD_SHARED_LIBS OFF)
+
+
+if(ENABLE_CLANG_TIDY)
+    find_program(CLANG_TIDY clang-tidy)
+    if(CLANG_TIDY)
+        set(CMAKE_CXX_CLANG_TIDY "${CLANG_TIDY};-warnings-as-errors=*")
+    endif()
+endif()

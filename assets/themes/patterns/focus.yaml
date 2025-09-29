@@ -1,0 +1,18 @@
+name: Focus
+tags:
+  color:
+    background: "#111214"
+    surface: "#1C1E22"
+    accent: "#00B7FF"
+    border: "#2C2F33"
+    text:
+      primary: "#DDEEFF"
+      secondary: "#AABBC7"
+    alert: "#FF9955"
+    hover: "#1A2228"
+  opacity:
+    active: 1.0
+    inactive: 0.9
+  layout:
+    monitors: "to-right"
+    bar: "top"
