@@ -1,0 +1,15 @@
+name: Matrix
+tags:
+  color:
+    background: "#000000"
+    surface: "#0A0E14"
+    accent: "#00FF66"
+    border: "#002200"
+    text:
+      primary: "#C8FACC"
+      secondary: "#88B89E"
+    alert: "#FF3366"
+    hover: "#003311"
+  opacity:
+    active: 1.0
+    inactive: 0.9
