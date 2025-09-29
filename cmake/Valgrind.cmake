@@ -1,0 +1,6 @@
+if(ENABLE_VALGRIND)
+    find_program(VALGRIND valgrind)
+    if(VALGRIND)
+        set(MEMCHECK_CMD ${VALGRIND} --leak-check=full --error-exitcode=123)
+    endif()
+endif()

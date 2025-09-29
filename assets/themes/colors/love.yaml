@@ -1,0 +1,17 @@
+name: Love
+tags:
+  color:
+    background: "#1A0E12"
+    surface: "#2A1620"
+    accent:
+      primary: "#b330b8"
+      secondary: "#91289a"
+    border: "#402030"
+    text:
+      primary: "#FFD6F0"
+      secondary: "#B880A6"
+    alert: "#FF6688"
+    hover: "#331222"
+  opacity:
+    active: 0.97
+    inactive: 0.88

@@ -1,0 +1,9 @@
+# SigilVM ignores
+compile_commands.json
+*.code-workspace
+__pycache__
+imgui.ini
+.vscode
+.cache
+build
+out

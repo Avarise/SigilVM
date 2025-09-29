@@ -1,0 +1,11 @@
+# Maintainer: Sebastian Czapla (https://github.com/Avarise)
+pkgname=('sigilvm-extra')
+pkgbase='sigilvm-extra'
+pkgdesc='SigilVM Editor, Xorit, and optional assets'
+url='https://github.com/Avarise/SigilVM'
+license=('MIT')
+arch=('x86_64')
+depends=()
+makedepends=('cmake' 'gcc' 'make')
+source=()
+sha512sums=('SKIP')
