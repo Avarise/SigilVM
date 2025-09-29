@@ -1,0 +1,22 @@
+set(SIGIL_CACHE_DIR ${CMAKE_SOURCE_DIR}/.cache/vm)
+set(SIGIL_BUILD_DIR ${CMAKE_SOURCE_DIR}/build)
+
+# ensure dirs exist
+file(MAKE_DIRECTORY ${SIGIL_CACHE_DIR})
+file(MAKE_DIRECTORY ${SIGIL_BUILD_DIR})
+file(MAKE_DIRECTORY ${SIGIL_BUILD_DIR}/bin)
+file(MAKE_DIRECTORY ${SIGIL_BUILD_DIR}/lib)
+
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${SIGIL_BUILD_DIR}/lib)
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${SIGIL_BUILD_DIR}/lib)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${SIGIL_BUILD_DIR}/bin)
+
+# CMake's own files (cache, intermediates)
+set(CMAKE_CACHEFILE_DIR ${SIGIL_CACHE_DIR})
+set(CMAKE_BINARY_DIR ${SIGIL_CACHE_DIR})
+
+include_directories(
+    ${CMAKE_SOURCE_DIR}/include
+    ${CMAKE_SOURCE_DIR}/extern/imgui
+    ${CMAKE_SOURCE_DIR}/extern/imgui/backends
+)

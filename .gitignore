@@ -1,0 +1,7 @@
+# SigilVM ignores
+*.code-workspace
+__pycache__
+imgui.ini
+.vscode
+.cache
+build
