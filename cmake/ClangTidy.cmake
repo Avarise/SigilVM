@@ -1,0 +1,6 @@
+if(ENABLE_CLANG_TIDY)
+    find_program(CLANG_TIDY clang-tidy)
+    if(CLANG_TIDY)
+        set(CMAKE_CXX_CLANG_TIDY "${CLANG_TIDY};-warnings-as-errors=*")
+    endif()
+endif()

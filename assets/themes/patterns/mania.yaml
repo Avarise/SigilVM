@@ -1,0 +1,15 @@
+name: Mania
+tags:
+  color:
+    background: "#120808"
+    surface: "#1E0C0C"
+    accent: "#FF0044"
+    border: "#330011"
+    text:
+      primary: "#FFE6E6"
+      secondary: "#CC7788"
+    alert: "#FF2222"
+    hover: "#220A0E"
+  opacity:
+    active: 0.96
+    inactive: 0.84

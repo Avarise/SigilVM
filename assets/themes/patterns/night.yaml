@@ -1,0 +1,15 @@
+name: Night
+tags:
+  color:
+    background: "#0D0D12"
+    surface: "#181820"
+    accent: "#6AAEFF"
+    border: "#303040"
+    text:
+      primary: "#E6E6F0"
+      secondary: "#A0A0B3"
+    alert: "#FF5577"
+    hover: "#1A1A2F"
+  opacity:
+    active: 0.97
+    inactive: 0.85

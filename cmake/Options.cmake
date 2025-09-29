@@ -1,0 +1,7 @@
+option(BUILD_EXAMPLES "Build example applications" ON)
+option(BUILD_TESTING "Build tests" ON)
+option(ENABLE_WAYLAND "Enable Wayland platform" ON)
+option(ENABLE_CLANG_TIDY "clang-tidy linting" OFF)
+option(ENABLE_CPPCHECK "cppcheck static analysis" OFF)
+option(ENABLE_VALGRIND "Wrap tests with valgrind" ON)
+option(BUILD_SHARED_LIBS OFF)  

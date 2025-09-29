@@ -1,0 +1,15 @@
+name: Phoenix
+tags:
+  color:
+    background: "#1A0C0C"
+    surface: "#261010"
+    accent: "#FF6600"
+    border: "#402010"
+    text:
+      primary: "#FFEEDD"
+      secondary: "#CCAA88"
+    alert: "#FF2244"
+    hover: "#331111"
+  opacity:
+    active: 0.98
+    inactive: 0.86

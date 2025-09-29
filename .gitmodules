@@ -1,0 +1,9 @@
+[submodule "imgui"]
+	path = include/imgui
+	url = https://github.com/ocornut/imgui.git
+[submodule "include/thaumaturgy"]
+	path = include/thaumaturgy
+	url = git@github.com:Avarise/thaumaturgy.git
+[submodule "include/xxhash"]
+	path = include/xxhash
+	url = git@github.com:Cyan4973/xxHash.git
