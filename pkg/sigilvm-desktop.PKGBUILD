@@ -1,8 +1,8 @@
-# Maintainer: Operator <you@example.com>
+# Maintainer: Avarise (https://github.com/Avarise)
 pkgname=('sigilvm-desktop')
 pkgbase='sigilvm-desktop'
 pkgdesc='SigilVM desktop assets: themes and templates'
-url='https://example.org/sigilvm'
+url='https://github.com/Avarise/SigilVM'
 license=('MIT')
 arch=('x86_64')
 depends=(
@@ -18,7 +18,7 @@ depends=(
   'qt6-wayland'
   'starship'
   'zsh'
-)
+) 
 makedepends=('cmake' 'gcc' 'make')
 source=()
 sha512sums=('SKIP')
