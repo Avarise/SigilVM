@@ -4,3 +4,15 @@
 [submodule "include/xxhash"]
 	path = include/xxhash
 	url = git@github.com:Cyan4973/xxHash.git
+[submodule "thirdparty/imgui"]
+	path = thirdparty/imgui
+	url = https://github.com/ocornut/imgui.git
+[submodule "thirdparty/xxhash"]
+	path = thirdparty/xxhash
+	url = https://github.com/Cyan4973/xxHash.git
+[submodule "thirdparty/vulkan-headers"]
+	path = thirdparty/vulkan-headers
+	url = https://github.com/KhronosGroup/Vulkan-Headers.git
+[submodule "thirdparty/volk"]
+	path = thirdparty/volk
+	url = https://github.com/zeux/volk.git

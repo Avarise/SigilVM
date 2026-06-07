@@ -1,0 +1,5 @@
+option(SIGILVM_BUILD_TESTS "Build tests" ON)
+option(SIGILVM_BUILD_SHARED "Build shared library" ON)
+option(SIGILVM_ENABLE_WARNINGS "Enable compiler warnings" ON)
+option(SIGILVM_ENABLE_ASAN "Enable AddressSanitizer" OFF)
+option(SIGILVM_ENABLE_LTO "Enable link time optimization" OFF)

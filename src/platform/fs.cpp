@@ -70,19 +70,19 @@ file_handler_t::~file_handler_t() {
     ::sigil::yield ret;
 
     if (!data || file_size == 0)
-        return ret.set_state(sigil::yield_state::fail);
+        return ret.set_state(sigil::trap_state::fail);
         // return VM_SKIPPED;
 
     FILE *fp = std::fopen(path.string().c_str(), "wb");
     if (!fp)
-        return ret.set_state(sigil::yield_state::fail);
+        return ret.set_state(sigil::trap_state::fail);
         // return VM_IO_ERROR;
 
     size_t written = std::fwrite(data, 1, file_size, fp);
     std::fclose(fp);
 
     if (written != file_size)
-        return ret.set_state(sigil::yield_state::fail);
+        return ret.set_state(sigil::trap_state::fail);
         // return VM_IO_ERROR;
 
     return ret;
